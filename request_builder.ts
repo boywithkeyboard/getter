@@ -55,7 +55,7 @@ export class RequestBuilder<M extends RequestMethod> {
     return this
   }
 
-  data(data: string) {
+  data(data: RequestData) {
     this.#r.data = data
 
     return this
