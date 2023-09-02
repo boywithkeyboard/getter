@@ -2,5 +2,9 @@
   "fmt": {
     "semiColons": false,
     "singleQuote": true
+  },
+  "lock": false,
+  "tasks": {
+    "test": "deno test -A ./test/**/*"
   }
 }
